@@ -1,95 +1,59 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
+import React, {useEffect, useState} from "react";
+import Image from "next/image";
+import {BsEnvelopeOpenFill, BsFillEnvelopeOpenFill, BsFillTelephoneFill} from "react-icons/bs";
+import {FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter} from "react-icons/fa";
+import Script from "next/script";
+import Link from "next/link";
+import TopBar from "@/app/components/TopBar";
+import Navbar from "@/app/components/Navbar";
+import Carousel from "@/app/components/Carousel";
+import Facts from "@/app/components/Facts";
+import About from "@/app/components/About";
+import Service from "@/app/components/Service";
+import Feature from "@/app/components/Feature";
+import Project from "@/app/components/Project";
+import Team from "@/app/components/Team";
+import Appointment from "@/app/components/Appointment";
+import Testimonial from "@/app/components/Testimonial";
+import Footer from "@/app/components/Footer";
+import Blogs from "@/app/components/Blogs";
+import ScrollAnimation from "@/app/components/ScrollAnimation";
+import PageHeader from "@/app/components/PageHeader";
+import NotFind from "@/app/components/NotFind";
+import ComingSoon from "@/app/components/ComingSoon";
+import Head from "next/head";
+import {FadeLoader} from "react-spinners";
+
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    const [isLoading, setIsLoading] = useState(true);
+    useEffect(() => {
+        setIsLoading(false)
+    }, []);
+    return (
+        <>
+            {isLoading ? (
+                <div className='flex-center absolute inset-0 ' >
+                    <FadeLoader color="#36d7b7"/>
+                </div>
+            ) : (
+                <>
+                    <Carousel/>
+                    <Facts/>
+                    <About/>
+                    <Service/>
+                    <Feature/>
+                    <Project/>
+                    {/*<Team/>*/}
+                    {/*<Testimonial/>*/}
+                    {/*<ComingSoon/>*/}
+                    {/*<Blogs/>*/}
+                    {/*<NotFind/>*/}
+                </>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+                )}
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+        </>
+    )
 }
