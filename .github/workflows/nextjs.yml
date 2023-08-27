@@ -59,8 +59,8 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
 
-      - name: Install dependencies
-        run: pnpm ${{ steps.detect-package-manager.outputs.command }}
+      - name: Install dependencies using pnpm
+        run: pnpm install
 
       - name: Build with Next.js
         run: pnpm run build
