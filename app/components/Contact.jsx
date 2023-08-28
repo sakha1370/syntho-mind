@@ -53,7 +53,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:mt-0 my-4">
-                                <Image src={'/assets/img/reyhane.jpg'} alt={'slide-1'}
+                                <Image src={`${basePath}/assets/img/reyhane.jpg`} alt={'slide-1'}
                                        width="50%" height="100%" priority placeholder = 'empty'  />
                             </div>
                             <div className="w-full md:mt-4  lg:mt-0 flex flex-col justify-center">
