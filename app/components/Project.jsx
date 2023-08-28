@@ -4,7 +4,7 @@ import {FaCheck} from "react-icons/fa";
 import {TbChecks} from "react-icons/tb";
 import {useState} from "react";
 import ScrollAnimation from "@/app/components/ScrollAnimation";
-import Image from 'next/Image';
+import Image from 'next/image';
 
 const Project = () => {
     const [N, setNumber] = useState(1);
