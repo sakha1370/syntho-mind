@@ -5,7 +5,7 @@ const nextConfig = {
     output: 'export',
     // basePath: '/your-repo-name',
     images: {
-        domains: ['github.com', 'sakha1370.github.io'],
+        domains: ['https://github.com/sakha1370/syntho-mind/blob/master/public'],
         loader: 'default',
         path: '/_next/image',
         quality: 75,
