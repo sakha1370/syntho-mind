@@ -4,7 +4,7 @@
 const nextConfig = {
     output: 'export',
     // basePath: '/syntho-mind',
-    assetPrefix: '/syntho-mind',
+    // assetPrefix: '/syntho-mind',
     // images: {
     //     domains: ['https://github.com/sakha1370/syntho-mind/blob/master/public'],
     //     loader: 'default',
