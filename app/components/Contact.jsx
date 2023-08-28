@@ -54,7 +54,7 @@ const Contact = () => {
                             </div>
                             <div className="w-full lg:mt-0 my-4">
                                 <Image src={`/assets/img/reyhane.jpg`} alt={'slide-1'}
-                                       width="50%" height="100%" priority placeholder = 'empty'  />
+                                       width={500} height={500} priority placeholder = 'empty'  />
                             </div>
                             <div className="w-full md:mt-4  lg:mt-0 flex flex-col justify-center">
                                 <h4 className="text-sky-500 font-bold text-xl mb-3">ABOUT MANAGER</h4>

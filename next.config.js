@@ -2,7 +2,7 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    output: 'export',
+    // output: 'export',
     // basePath: '/syntho-mind',
     // assetPrefix: '/syntho-mind',
     // images: {
