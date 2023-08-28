@@ -3,13 +3,13 @@
  */
 const nextConfig = {
     output: 'export',
-    // basePath: '/your-repo-name',
-    images: {
-        domains: ['https://github.com/sakha1370/syntho-mind/blob/master/public'],
-        loader: 'default',
-        path: '/_next/image',
-        quality: 75,
-    },
+    basePath: '/syntho-mind',
+    // images: {
+    //     domains: ['https://github.com/sakha1370/syntho-mind/blob/master/public'],
+    //     loader: 'default',
+    //     path: '/_next/image',
+    //     quality: 75,
+    // },
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
 
