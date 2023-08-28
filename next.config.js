@@ -3,9 +3,10 @@
  */
 const nextConfig = {
     output: 'export',
+    target: 'experimental-serverless-trace',
     // basePath: '/your-repo-name',
     images: {
-        domains: ['https://github.com/sakha1370/syntho-mind/blob/master/public'],
+        domains: ['github.com'],
         loader: 'default',
         path: '/_next/image',
         quality: 75,
