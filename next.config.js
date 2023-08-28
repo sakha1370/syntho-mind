@@ -1,9 +1,7 @@
 module.exports = {
-    experimental: {
-        images: true, // Enable the experimental images feature
+    reactStrictMode: true,
+    images: {
+        domains: ['example.com'], // Add the domains for your images
     },
-    webpack: (config, { isServer }) => {
-        // Modify the webpack configuration as needed
-        return config;
-    },
+    // Any other configuration options you need
 };

@@ -5,7 +5,6 @@ import React from "react";
 import {BiCurrentLocation} from "react-icons/bi";
 import {IoCall} from "react-icons/io5";
 import {SiGmail} from "react-icons/si";
-import slide1 from "@/public/assets/img/reyhaneh.jpg";
 import Image from "next/image";
 import {FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter} from "react-icons/fa";
 import GoogleMap from "@/app/components/GoogleMap";
@@ -54,7 +53,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:mt-0 my-4">
-                                <Image src={slide1} alt={'slide-1'}
+                                <Image src={'/assets/img/reyhaneh.jpg'} alt={'slide-1'}
                                        width="50%" height="100%" priority placeholder = 'empty'  />
                             </div>
                             <div className="w-full md:mt-4  lg:mt-0 flex flex-col justify-center">
