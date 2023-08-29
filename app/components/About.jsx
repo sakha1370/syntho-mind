@@ -13,10 +13,10 @@ const About = () => {
 
                     <div className="relative h-full px-8
                  outline-sky-500 outline-dashed outline-4" style={{outlineOffset: '-50px', minHeight: '464px'}}>
-                        <div className="absolute w-3/4 h-3/4 left-0 top-0 ">
-                            <Image className="" src="/assets/img/mobile2.jpg" alt="" fill sizes={'25vw'} priority placeholder = 'empty'/>
+                        <div className="absolute w-3/4 h-3/4 left-0 top-0   rounded-xl overflow-hidden">
+                            <Image className="" src="/assets/img/mobile1.png" alt="" fill sizes={'25vw'} priority placeholder = 'empty'/>
                         </div>
-                        <div className="absolute w-3/4 h-3/4 right-0 bottom-0 ">
+                        <div className="absolute w-3/4 h-3/4 right-0 bottom-0 rounded-xl overflow-hidden">
                             <Image className="" src="/assets/img/mobile2.jpg" alt="" fill sizes={'25vw'} priority placeholder = 'empty'/>
                         </div>
 

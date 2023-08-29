@@ -38,6 +38,7 @@ const Contact = () => {
                                         <IoCall className='text-3xl   '/>
                                     </div>
                                     <div className="content">
+
                                         <p className='me-3  text-warm-gray my-1'>Call Us Now</p>
                                         <a className="my-1 font-bold text-xl" href='tel:+989138463446'>+989138463446</a>
                                     </div>
@@ -53,7 +54,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="w-full lg:mt-0 my-4">
-                                <Image src={`/assets/img/reyhane.jpg`} alt={'slide-1'}
+                                <Image src={`/assets/img/reyhane.png`} alt={'slide-1'}
                                        width={500} height={500} priority placeholder = 'empty'  />
                             </div>
                             <div className="w-full md:mt-4  lg:mt-0 flex flex-col justify-center">

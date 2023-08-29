@@ -7,7 +7,7 @@ import GoogleMap from "@/app/components/GoogleMap";
 const Footer = () => {
     return (
         <>
-            <div className="mx-0 p-5 pb-0 bg-gray-900 text-warm-gray w-full">
+            <div className="mx-0 p-5  bg-gray-900 text-warm-gray w-full ">
                 <div className="container mx-auto">
                     <div className=" grid md:grid-cols-2 lg:grid-cols-4">
                         <div className="mt-6 order-2 lg:order-1">

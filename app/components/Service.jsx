@@ -10,37 +10,37 @@ import {SiDjango} from "react-icons/si";
 const Service = () => {
     const data = [
         {
-            image: "/assets/img/service-1.jpg",
+            image: "/assets/img/react.jpg",
             icon: <BiLogoReact className="mb-4 mx-auto text-6xl text-sky-500" />,
             title: "React",
             content: "Building Interactive UIs with React",
         },
         {
-            image: "/assets/img/service-2.jpg",
+            image: "/assets/img/nextjs.jpg",
             icon: <TbBrandNextjs className="mb-4 mx-auto text-6xl text-sky-500" />,
             title: "Next.js",
             content: "Next-level Web Development with Next.js",
         },
         {
-            image: "/assets/img/service-3.jpg",
+            image: "/assets/img/tailwind.png",
             icon: <BiLogoTailwindCss className="mb-4 mx-auto text-6xl text-sky-500" />,
             title: "Tailwind CSS",
             content: "Effortless Styling with Tailwind CSS",
         },
         {
-            image: "/assets/img/service-4.jpg",
+            image: "/assets/img/flutter.jpg",
             icon: <BiLogoFlutter className="mb-4 mx-auto text-6xl text-sky-500" />,
             title: "Flutter",
             content: "Fluttering into the Future: Creating Cross-Platform Apps with Flutter",
         },
         {
-            image: "/assets/img/service-5.jpg",
+            image: "/assets/img/laravel1.jpg",
             icon: <FaLaravel className="mb-4 mx-auto text-6xl text-sky-500" />,
             title: "Laravel",
             content: "Crafting Dynamic Web Applications with Laravel",
         },
         {
-            image: "/assets/img/service-6.jpg",
+            image: "/assets/img/django.jpg",
             icon: <BiLogoDjango className="mb-4 mx-auto text-6xl text-sky-500" />,
             title: "Django",
             content: "Pythonic Perfection: Web Development with Django",
@@ -64,7 +64,7 @@ const Service = () => {
                                 } mx-3 relative  bg-gray-50 fadeInUp mt-5 group`} h-full">
                                     <div className="flex-center relative text-center h-full group">
                                         <Image
-                                            className="opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                            className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"
                                             src={item.image} alt="" fill
                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                                         <div

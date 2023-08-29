@@ -23,7 +23,7 @@ const Feature = () => {
     return (
         <>
             <ScrollAnimation>
-                <div className="container grid grid-cols-1 lg:grid-cols-2  mx-auto pb-16  px-8 animate-fade-up mt-10">
+                <div className="container grid grid-cols-1 lg:grid-cols-2  mx-auto pb-16  px-8 animate-fade-up mt-20">
                     <div className="h-full flex flex-col justify-between my-10 lg:my-0 lg:ms-10 lg:pe-5">
                         <h4 className="text-sky-500 font-bold text-xl mb-3 text-center">Why Choose Us!</h4>
                         <h1 className="font-extrabold text-5xl mb-5 text-center">Why You Should Trust Us? Learn More About Us!</h1>
@@ -43,7 +43,6 @@ const Feature = () => {
                                 reputation that you can rely on. Our risk-free approach allows you to get to know us,
                                 gauge our proficiency, and make an informed decision with confidence.
                             </p>
-D
 
                             <p className="mb-4 text-warm-gray">
                                 At <strong>Syntho Mind</strong>, we believe in proving our worth before asking for your
@@ -56,11 +55,11 @@ D
 
                     <div className="relative h-full px-8 outline-sky-500 outline-dashed outline-4 mt-10"
                          style={{outlineOffset: '-50px', minHeight: '464px'}}>
-                        <div className="absolute w-3/4 h-3/4 left-0 top-0 ">
-                            <Image className="" src="/assets/img/mobile2.jpg" alt="" fill sizes={'25vw'}/>
+                        <div className="absolute w-3/4 h-3/4 left-0 top-0  rounded-xl overflow-hidden">
+                            <Image className="" src="/assets/img/m1.png" alt="" fill sizes={'25vw'}/>
                         </div>
-                        <div className="absolute w-3/4 h-3/4 right-0 bottom-0 ">
-                            <Image className="" src="/assets/img/mobile2.jpg" alt="" fill sizes={'25vw'}/>
+                        <div className="absolute w-3/4 h-3/4 right-0 bottom-0 rounded-xl overflow-hidden">
+                            <Image className="" src="/assets/img/m2.png" alt="" fill sizes={'25vw'}/>
                         </div>
                     </div>
                 </div>
