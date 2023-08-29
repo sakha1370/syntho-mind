@@ -25,7 +25,7 @@ const About = () => {
                     <div className="h-full flex flex-col justify-between my-10 lg:my-0 lg:ms-10">
                         <h4 className="text-sky-500 font-bold text-xl mb-3 text-center">About Us</h4>
                         <h1 className="font-extrabold text-5xl mb-5 text-center">Empowering Digital Transformation</h1>
-                        <p className=' text-warm-gray'>At Syntho Mind, we are dedicated to revolutionizing the
+                        <p className=' text-warm-gray text-justify'>At Syntho Mind, we are dedicated to revolutionizing the
                             digital landscape. With a passion for innovation and a commitment to excellence, we
                             specialize in crafting cutting-edge solutions that drive businesses forward. Our expertise
                             in web development, app design, backend systems and etc allows us to

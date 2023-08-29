@@ -89,8 +89,8 @@ const Project = () => {
                                 <Image className="w-full h-full mt-4  md:mt-0" src={data[N - 1].logo}
                                      style={{objectFit: 'cover', minHeight: '350px'}} alt="" width={500} height={500}/>
                                 <div className="mt-6 flex flex-col justify-between md:mt-0 md:h-auto">
-                                    <h1 className="mb-3 font-bold text-2xl">{data[N - 1].title}</h1>
-                                    <p className="mb-4 text-warm-gray">{data[N - 1].content}</p>
+                                    <h1 className="mb-3 font-bold text-2xl  text-justify">{data[N - 1].title}</h1>
+                                    <p className="mb-4 text-warm-gray  text-justify">{data[N - 1].content}</p>
                                     {data[N - 1].list[0] ? (<p className="me-3  text-warm-gray"><TbChecks
                                         className='inline me-3 text-sky-500 font-extrabold text-2xl'/>{data[N - 1].list[0]}
                                     </p>) : ''}

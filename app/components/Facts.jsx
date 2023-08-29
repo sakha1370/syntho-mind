@@ -43,7 +43,7 @@ const Facts = () => {
                                     </div>
                                     <div className="fact-item flex-col justify-center items-center text-center bg-light h-100 px-5 pt-16 pb-10  h-full">
                                         <h3 className="mb-3 text-2xl font-bold font-teko">{item.title}</h3>
-                                        <p className="mb-0  text-warm-gray">{item.content}</p>
+                                        <p className="mb-0  text-warm-gray text-justify">{item.content}</p>
                                     </div>
                                 </div>
                             </ScrollAnimation>
