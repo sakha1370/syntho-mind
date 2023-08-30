@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className="mt-6 order-2 lg:order-1">
                             <h3 className="mb-4 font-bold text-2xl text-white">Address</h3>
                             <p className="mb-2 flex items-center"><FaAngleRight className=' text-sky-500 text-lg me-3'/>
-                                <a href="#" className='pointer-events-none'>Unit 120, Kausar Tower, Kerman, Iran</a>
+                                <a href="#" className='pointer-events-none'>Unit 630, Kausar Tower, Kerman, Iran</a>
                             </p>
                             <p className="mb-2 flex items-center"><FaAngleRight className=' text-sky-500 text-lg me-3'/><a
                                 href="tel:+989138463446">+989138463446</a></p>

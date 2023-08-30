@@ -4,9 +4,9 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 // import required modules
 import {Pagination, EffectFade, Autoplay,} from 'swiper/modules';
 
-import slide1 from '/public/assets/img/slide-1.jpg'
-import slide2 from '/public/assets/img/slide-2.jpg'
-import slide3 from '/public/assets/img/slide-3.jpg'
+import slide1 from '/public/assets/img/ih1.jpg'
+import slide2 from '/public/assets/img/ih2.jpg'
+import slide3 from '/public/assets/img/ih3.jpg'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -23,7 +23,7 @@ const Carousel = () => {
     const pagination = {
         clickable: true,
         renderBullet: function (index, className) {
-            return `<Image src='/assets/img/slide-${index + 1}.jpg' alt={'slide-${index + 1}'} class='${className}' fill  priority placeholder = 'empty'>`;
+            return `<Image src='/assets/img/ih${index + 1}.jpg' alt={'slide-${index + 1}'} class='${className}' fill  priority placeholder = 'empty'>`;
         },
     };
     return (

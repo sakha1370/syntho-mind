@@ -30,7 +30,7 @@ const Contact = () => {
                                     </div>
                                     <div className="content">
                                         <p className='me-3  text-warm-gray '>Address</p>
-                                        <h3 className="my-1 font-bold text-xl">Unit 120, Kausar Tower, Kerman, Iran </h3>
+                                        <h3 className="my-1 font-bold text-xl">Unit 630, Kausar Tower, Kerman, Iran </h3>
                                     </div>
                                 </div>
                                 <div className="card flex items-center mb-2">
