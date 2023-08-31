@@ -2,7 +2,7 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 // import required modules
-import {Pagination, EffectFade, Autoplay,} from 'swiper/modules';
+import {Autoplay, EffectFade, Pagination,} from 'swiper/modules';
 
 import slide1 from '/public/assets/img/ih1.jpg'
 import slide2 from '/public/assets/img/ih2.jpg'

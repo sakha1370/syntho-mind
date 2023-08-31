@@ -1,4 +1,3 @@
-import {BiChevronRight} from "react-icons/bi";
 import {FaAngleRight, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter} from "react-icons/fa";
 import Link from "next/link";
 import React from "react";
@@ -16,7 +15,7 @@ const Footer = () => {
                                 <a href="#" className='pointer-events-none'>Unit 630, Kausar Tower, Kerman, Iran</a>
                             </p>
                             <p className="mb-2 flex items-center"><FaAngleRight className=' text-sky-500 text-lg me-3'/><a
-                                href="tel:+989138463446">+989138463446</a></p>
+                                href="https://t.me/+989138463446">+989138463446</a></p>
                             <p className="mb-2 flex items-center"><FaAngleRight className=' text-sky-500 text-lg me-3'/><a
                                 href="mailto:bestsynthomind@gmail.com">BestSynthoMind@gmail.com</a>
                             </p>

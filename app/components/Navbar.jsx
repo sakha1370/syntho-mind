@@ -1,10 +1,7 @@
-import {BsFillEnvelopeOpenFill, BsFillTelephoneFill} from "react-icons/bs";
 import Link from "next/link";
-import {FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter} from "react-icons/fa";
 
 import React from "react";
 import Logo from "@/app/components/Logo";
-import {GiHamburgerMenu} from "react-icons/gi";
 import {MdOutlineKeyboardArrowDown} from "react-icons/md";
 
 const Navbar = () => {

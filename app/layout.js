@@ -1,5 +1,4 @@
 import './globals.css'
-// import '/public/styles/style.scss'
 import {Teko, Inter} from 'next/font/google'
 import TopBar from "@/app/components/TopBar";
 import Navbar from "@/app/components/Navbar";

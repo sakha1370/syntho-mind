@@ -1,4 +1,3 @@
-import {TbChecks} from "react-icons/tb";
 import Link from "next/link";
 import ScrollAnimation from "@/app/components/ScrollAnimation";
 import React from "react";
@@ -40,7 +39,7 @@ const Contact = () => {
                                     <div className="content">
 
                                         <p className='me-3  text-warm-gray my-1'>Call Us Now</p>
-                                        <a className="my-1 font-bold text-xl" href='tel:+989138463446'>+989138463446</a>
+                                        <a className="my-1 font-bold text-xl" href='https://t.me/+989138463446'>+989138463446</a>
                                     </div>
                                 </div>
                                 <div className="card flex items-center">
@@ -71,7 +70,7 @@ const Contact = () => {
                                     </div>
                                     <div className="flex items-baseline">
                                         <h4 className="me-2 mb-0 font-extrabold text-2xl">Phone:</h4>
-                                        <a className="mb-0 text-warm-gray text-xl" href='tel:+989162491186'>+989162491186</a>
+                                        <a className="mb-0 text-warm-gray text-xl" href='https://t.me/+989162491186'>+989162491186</a>
                                     </div>
 
                                     <div className="flex items-center mt-5">

@@ -1,6 +1,4 @@
 import Link from "next/link";
-import {BsCheck2All} from "react-icons/bs";
-import {FaCheck} from "react-icons/fa";
 import {TbChecks} from "react-icons/tb";
 import {useState} from "react";
 import ScrollAnimation from "@/app/components/ScrollAnimation";

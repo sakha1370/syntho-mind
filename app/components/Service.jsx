@@ -1,11 +1,8 @@
 import Image from "next/image";
-import {FaLaravel, FaPlus} from "react-icons/fa";
-import {BsPlus} from "react-icons/bs";
+import {FaLaravel} from "react-icons/fa";
 import ScrollAnimation from "@/app/components/ScrollAnimation";
 import {BiLogoDjango, BiLogoFlutter, BiLogoReact, BiLogoTailwindCss} from "react-icons/bi";
 import {TbBrandNextjs} from "react-icons/tb";
-import {DiDjango} from "react-icons/di";
-import {SiDjango} from "react-icons/si";
 
 const Service = () => {
     const data = [

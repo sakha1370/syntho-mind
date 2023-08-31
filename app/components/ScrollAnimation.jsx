@@ -1,4 +1,4 @@
-import {useRef, useState, useEffect} from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 const ScrollAnimation = ({children, order = 0}) => {
     const [animated, setAnimated] = useState(false);

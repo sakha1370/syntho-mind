@@ -1,7 +1,5 @@
 import {BsFillEnvelopeOpenFill, BsFillTelephoneFill} from "react-icons/bs";
 import React from "react";
-import Link from "next/link";
-import {FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter} from "react-icons/fa";
 
 const Appointment = () => {
 

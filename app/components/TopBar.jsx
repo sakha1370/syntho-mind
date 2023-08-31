@@ -11,7 +11,7 @@ const TopBar = () => {
                     <div className="left flex items-center ml-10">
                         <div className="phone flex items-center mx-4">
                             <BsFillTelephoneFill className={'text-sky-500 mr-2'}/>
-                            <a href="tel:+989138463446">+989138463446</a>
+                            <a href="https://t.me/+989138463446">+989138463446</a>
                         </div>
                         <div className="email flex items-center mx-4">
                             <BsFillEnvelopeOpenFill className={'text-sky-500 mr-2'}/>

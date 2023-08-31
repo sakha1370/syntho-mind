@@ -41,7 +41,7 @@
 
     /* Apply the utility within a group */
     .group:focus .no-scrollbar::-webkit-scrollbar {
-        display: auto;
+        /*display: auto;*/
     }
 
     .group:focus .no-scrollbar {
