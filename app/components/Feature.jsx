@@ -2,24 +2,6 @@ import Image from "next/image";
 import ScrollAnimation from "@/app/components/ScrollAnimation";
 
 const Feature = () => {
-    const data = [
-        {
-            image: "/assets/img/icon-2.png",
-            title: "Design Approach",
-            content: "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.",
-        },
-        {
-            image: "/assets/img/icon-3.png",
-            title: "Innovative Solutions",
-            content: "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.",
-        },
-        {
-            image: "/assets/img/icon-4.png",
-            title: "Project Management",
-            content: "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.",
-        },
-
-    ]
     return (
         <>
             <ScrollAnimation>
@@ -56,10 +38,10 @@ const Feature = () => {
                     <div className="relative h-full px-8 outline-sky-500 outline-dashed outline-4 mt-10"
                          style={{outlineOffset: '-50px', minHeight: '464px'}}>
                         <div className="absolute w-3/4 h-3/4 left-0 top-0  rounded-xl overflow-hidden">
-                            <Image className="" src="/assets/img/m1.png" alt="" fill sizes={'25vw'}/>
+                            <Image className="object-contain" src="/assets/img/m1.png" alt="" fill sizes={'25vw'}/>
                         </div>
                         <div className="absolute w-3/4 h-3/4 right-0 bottom-0 rounded-xl overflow-hidden">
-                            <Image className="" src="/assets/img/m2.png" alt="" fill sizes={'25vw'}/>
+                            <Image className="object-contain" src="/assets/img/m2.png" alt="" fill sizes={'25vw'}/>
                         </div>
                     </div>
                 </div>
