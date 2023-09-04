@@ -20,10 +20,10 @@ const Footer = () => {
                                 href="mailto:bestsynthomind@gmail.com">BestSynthoMind@gmail.com</a>
                             </p>
                             <div className="flex pt-2 mb-6">
-                                <Link href={'#'} className={'custom-btn hidden'}><FaFacebookF/></Link>
-                                <Link href={'#'} className={'custom-btn hidden'}><FaTwitter/></Link>
-                                <Link href={'#'} className={'custom-btn hidden'}><FaLinkedinIn/></Link>
-                                <Link href={'https://www.instagram.com/synthomind/'} className={'custom-btn'}><FaInstagram/></Link>
+                                <Link href={'#'} className={'custom-btn hidden rounded-md'}><FaFacebookF/></Link>
+                                <Link href={'#'} className={'custom-btn hidden rounded-md'}><FaTwitter/></Link>
+                                <Link href={'#'} className={'custom-btn hidden rounded-md'}><FaLinkedinIn/></Link>
+                                <Link href={'https://www.instagram.com/synthomind/'} className={'custom-btn rounded-md'}><FaInstagram/></Link>
                             </div>
                         </div>
                         <div className="mt-6 hidden">

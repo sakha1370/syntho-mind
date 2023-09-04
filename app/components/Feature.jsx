@@ -5,12 +5,14 @@ const Feature = () => {
     return (
         <>
             <ScrollAnimation>
-                <div className="container grid grid-cols-1 lg:grid-cols-2  mx-auto pb-16  px-8 animate-fade-up mt-20">
-                    <div className="h-full flex flex-col justify-between my-10 lg:my-0 lg:ms-10 lg:pe-5">
-                        <h4 className="text-sky-500 font-bold text-xl mb-3 text-center">Why Choose Us!</h4>
-                        <h1 className="font-extrabold text-5xl mb-5 text-center">Why You Should Trust Us? Learn More About Us!</h1>
-                        <div>
-                            <p className="mb-4 text-warm-gray text-justify">Choosing a partner for your project involves a leap of
+                <div className="container grid grid-cols-1 lg:grid-cols-2  mx-auto py-20  px-8 animate-fade-up mt-20">
+                    <div className="h-full flex flex-col justify-between my-10 lg:my-0 lg:ms-10 lg:pe-5 ">
+                        <h4 className="text-sky-500 font-bold text-xl mb-3 text-center lg:text-left">Why Choose Us!</h4>
+                        <h1 className="font-extrabold text-5xl mb-5 text-center lg:text-left">Why You Should Trust Us?
+                            Learn More About Us!</h1>
+                        <div className='mb-10'>
+                            <p className="mb-4 text-warm-gray text-justify">Choosing a partner for your project involves
+                                a leap of
                                 faith, and at <strong>Syntho Mind</strong>, we&apos;ve made that decision easier with
                                 our <strong>risk-free approach</strong>.</p>
 
@@ -35,14 +37,18 @@ const Feature = () => {
 
                     </div>
 
-                    <div className="relative h-full px-8 outline-sky-500 outline-dashed outline-4 mt-10"
-                         style={{outlineOffset: '-50px', minHeight: '464px'}}>
-                        <div className="absolute w-3/4 h-3/4 left-0 top-0  rounded-xl overflow-hidden">
-                            <Image className="object-contain" src="/assets/img/m1.png" alt="" fill sizes={'25vw'}/>
+                    <div className="relative h-full px-8
+                 outline-sky-500 outline-dashed outline-4 min-h-[400px] md:min-h-[460px] lg:min-h-[300px] "
+                         style={{outlineOffset: '-50px',borderRadius: '60px'}}>
+                        <div className="absolute w-3/4 left-0 top-0  ">
+                            <Image className="object-contain rounded-xl " src="/assets/img/mockup-4.jpg" alt=""
+                                   width={1000} height={300} sizes={'25vw'} priority placeholder='empty'/>
                         </div>
-                        <div className="absolute w-3/4 h-3/4 right-0 bottom-0 rounded-xl overflow-hidden">
-                            <Image className="object-contain" src="/assets/img/m2.png" alt="" fill sizes={'25vw'}/>
+                        <div className="absolute w-3/4 right-0 bottom-0 ">
+                            <Image className="object-contain rounded-xl" src="/assets/img/mockup-3.jpg" alt=""
+                                   width={1000} height={300} sizes={'25vw'} priority placeholder='empty'/>
                         </div>
+
                     </div>
                 </div>
             </ScrollAnimation>

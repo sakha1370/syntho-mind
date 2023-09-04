@@ -1,21 +1,24 @@
+'use client'
 import Link from "next/link";
 
-import React from "react";
+import React, {useState} from "react";
 import Logo from "@/app/components/Logo";
 import {MdOutlineKeyboardArrowDown} from "react-icons/md";
 
 const Navbar = () => {
+    const [activeIndex, setActiveIndex] = useState(0)
+
     return (
         <>
             <div className={'h-30 bg-white font-normal items-center justify-between text-sky-500 flex flex-col md:flex-row md:h-20 sticky top-0  z-30 shadow'}>
                 <div className="left flex items-center md:ml-10">
                     <Logo/>
-                    <strong className={'font-extrabold text-4xl font-teko '}>Syntho Mind</strong>
+                    <strong className={'font-extrabold text-4xl font-teko hidden'}>Syntho Mind</strong>
                 </div>
                 <div className="right flex items-center md:mr-10 text-gray-800 text-2xl font-normal">
-                    <Link href={'/'} className={'mx-3 hover:text-sky-500 transition-all duration-300'}>Home</Link>
-                    <Link href={'/about'} className={'mx-3 hover:text-sky-500 transition-all duration-300'}>About</Link>
-                    <Link href={'/services'} className={'mx-3 hover:text-sky-500 transition-all duration-300'}>Services</Link>
+                    <Link href={'/'} className={`mx-3 hover:text-sky-500 transition-all duration-300 ${activeIndex===0? 'text-sky-500 font-bold':''}`} onClick={()=>{setActiveIndex(0)}}>Home</Link>
+                    <Link href={'/about'}  className={`mx-3 hover:text-sky-500 transition-all duration-300 ${activeIndex===1? 'text-sky-500 font-bold':''}`} onClick={()=>{setActiveIndex(1)}}>About</Link>
+                    <Link href={'/services'}  className={`mx-3 hover:text-sky-500 transition-all duration-300 ${activeIndex===2? 'text-sky-500 font-bold':''}`} onClick={()=>{setActiveIndex(2)}}>Services</Link>
                     {/*inline-block*/}
                     <div className="relative  text-left group hidden">
                         <button type="button"
@@ -51,7 +54,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                    <Link href={'/contact'} className={'mx-3 hover:text-sky-500'} pre>Contact</Link>
+                    <Link href={'/contact'}  className={`mx-3 hover:text-sky-500 transition-all duration-300 ${activeIndex===3? 'text-sky-500 font-bold':''}`} onClick={()=>{setActiveIndex(3)}}>Contact</Link>
 
                 </div>
             </div>

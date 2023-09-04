@@ -25,7 +25,7 @@ const Facts = () => {
         <>
 
 
-            <div className=" py-5 ">
+            <div className=" py-20 ">
                 <div className=" pt-20">
                     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-6
                     ">
@@ -34,7 +34,7 @@ const Facts = () => {
                                 <div
                                     className={`animate-slideInUp ${
                                         index === 0 ? 'animate-delay-0' : index === 1 ? 'animate-delay-100' : 'animate-delay-200'
-                                    } mx-3 relative lg:col-4 md:col-6 bg-gray-50 slideInDown mt-5 group h-full `}
+                                    } mx-3 relative lg:col-4 md:col-6 bg-gray-50 slideInDown mt-5 group h-full rounded-xl`}
 
                                 >
                                     <div className="-mt-1.5 absolute -translate-x-1/2 -translate-y-1/2 top-0 left-1/2 fact-icon w-32 h-32 flex justify-center items-center rounded-full

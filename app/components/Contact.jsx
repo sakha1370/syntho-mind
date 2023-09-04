@@ -24,7 +24,7 @@ const Contact = () => {
                                 <h4 className="text-sky-500 font-bold text-xl mb-3 text-center">Contacts Way</h4>
                                 <h1 className="font-extrabold text-5xl mb-5 text-center">Syntho Mind</h1>
                                 <div className="card flex items-center mb-2">
-                                    <div className="box h-24 w-24 bg-black text-sky-500 flex-center me-3" style={{minWidth: '96px'}}>
+                                    <div className="box h-24 w-24 bg-black text-sky-500 flex-center me-3 rounded-xl" style={{minWidth: '96px'}}>
                                         <BiCurrentLocation className='text-4xl   '/>
                                     </div>
                                     <div className="content">
@@ -33,7 +33,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div className="card flex items-center mb-2">
-                                    <div className="box h-24 w-24 bg-black text-sky-500 flex-center me-3">
+                                    <div className="box h-24 w-24 bg-black text-sky-500 flex-center me-3 rounded-xl">
                                         <IoCall className='text-3xl   '/>
                                     </div>
                                     <div className="content">
@@ -43,7 +43,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div className="card flex items-center">
-                                    <div className="box h-24 w-24 bg-black text-sky-500 flex-center me-3"  style={{minWidth: '96px'}}>
+                                    <div className="box h-24 w-24 bg-black text-sky-500 flex-center me-3 rounded-xl"  style={{minWidth: '96px'}}>
                                         <SiGmail className='text-4xl   '/>
                                     </div>
                                     <div className="content flex flex-col justify-center">
@@ -76,10 +76,10 @@ const Contact = () => {
                                     <div className="flex items-center mt-5">
                                         <h4 className="me-2 mb-0 font-extrabold text-2xl">Social:</h4>
                                         <div className="flex">
-                                            <Link href={'#'} className={'custom-btn hidden'}><FaFacebookF/></Link>
-                                            <Link href={'#'} className={'custom-btn hidden'}><FaTwitter/></Link>
-                                            <Link href={'https://www.linkedin.com/in/reyhane-ebrahimi/'} className={'custom-btn'}><FaLinkedinIn/></Link>
-                                            <Link href={'https://www.instagram.com/reyhan_ebrahimi1/'} className={'custom-btn'}><FaInstagram/></Link>
+                                            <Link href={'#'} className={'custom-btn hidden rounded-md'}><FaFacebookF/></Link>
+                                            <Link href={'#'} className={'custom-btn hidden rounded-md'}><FaTwitter/></Link>
+                                            <Link href={'https://www.linkedin.com/in/reyhane-ebrahimi/'} className={'custom-btn rounded-md'}><FaLinkedinIn/></Link>
+                                            <Link href={'https://www.instagram.com/reyhan_ebrahimi1/'} className={'custom-btn rounded-md'}><FaInstagram/></Link>
                                         </div>
                                     </div>
                                 </div>

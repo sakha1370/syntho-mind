@@ -8,13 +8,19 @@ const TextCarousel = ({n}) => {
     ]
     return (
         <>
-            <div className="absolute-center text-white h-auto  min-w-[90%] xl:min-w-[70%] bg-black bg-opacity-70 p-10 rounded-3xl">
-                <h1 style={{fontSize:'calc(1.625rem + 4.5vw)'}} className="text-xl leading-tight animate-slideInDown animate-once font-sans font-extrabold">{titles[n]}</h1>
-                {/*<p className=" font-normal text-white">Vero rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>*/}
-                <div className="flex items-center pt-4 animate-fade-right">
-                    <Link href="" className="sm:py-3 px-3 sm:px-5 me-5 bg-sky-500  rounded hover:ring-4 transition-all duration-300 hidden">Read More</Link>
+            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white h-full w-full lg:w-1/2 bg-black bg-opacity-70 p-10 ">
+                <div className="flex flex-col h-full justify-center items-center">
+
+                    <h1 style={{ fontSize: 'calc(0.625rem + 4.5vw)' }} className="pe-16 text-xl leading-tight animate-slideInDown animate-once font-sans font-extrabold my-auto">
+                        {titles[n]}
+                    </h1>
+                    {/*<p className="font-normal text-white">Vero rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>*/}
+                    <div className="items-center pt-4 animate-fade-right hidden">
+                        <Link href="" className="sm:py-3 px-3 sm:px-5 me-5 bg-sky-500 rounded hover:ring-4 transition-all duration-300 ">Read More</Link>
+                    </div>
                 </div>
             </div>
+
         </>
     );
 }

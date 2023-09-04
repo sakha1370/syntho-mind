@@ -58,7 +58,7 @@ const Service = () => {
                             <ScrollAnimation key={`Services-${item.title}-${index}`} order={index + 1}>
                                 <div key={`Services-${item.title}-${index}`} className="{`animate-slideInUp ${
                                     index === 0 ? 'animate-delay-0' : index === 1 ? 'animate-delay-100' : 'animate-delay-200'
-                                } mx-3 relative  bg-gray-50 fadeInUp mt-5 group`} h-full">
+                                } mx-3 relative  bg-gray-50 fadeInUp mt-5 group`} h-full rounded-xl overflow-hidden">
                                     <div className="flex-center relative text-center h-full group">
                                         <Image
                                             className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"
